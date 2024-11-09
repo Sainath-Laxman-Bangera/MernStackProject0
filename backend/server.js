@@ -27,5 +27,3 @@ app.listen(PORT, () => {
   console.log(`Server running in port : ${PORT}`);
   connectDB();
 });
-
-//SQFiK4ix3wLU5UpY
