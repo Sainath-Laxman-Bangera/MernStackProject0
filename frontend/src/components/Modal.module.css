@@ -1,0 +1,75 @@
+.modal {
+position: absolute;
+z-index:2;
+left:50%;
+top:50%;
+transform: translate(-50%,-50%);
+width: 100%;
+max-width: 450px;
+height: auto;
+display: flex;
+justify-content: center;
+flex-direction: column;
+background-color: black;
+align-items: center;
+padding: 20px;
+box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+animation-name: modalAnimation;
+animation-duration: 1s;
+}
+
+/* The animation code */
+@keyframes modalAnimation {
+  from {top: 0%;}
+  to {top:50%;}
+}
+
+
+.btnUpdate{
+    width:auto;
+    height: auto;
+    padding: 10px 5px;
+    margin:10px 10px;
+    background-color: aqua;
+    border-radius: 5px;
+    cursor:pointer;
+    color:black;
+}
+
+.btnUpdate:hover{
+background-color: black;
+color: white;
+
+}
+
+.btnCancel{
+    width:auto;
+    height: auto;
+    padding: 10px 5px;
+    margin:10px 10px;
+    background-color: rgb(255, 30, 0);
+    border-radius: 5px;
+    cursor:pointer;
+    color:white;
+}
+
+.btnCancel:hover{
+    background-color: black;
+    color: white;
+    
+    }
+
+  /* Input Field with Rounded Corners */
+  input[type="text"],
+  input[type="email"],
+  input[type="password"],
+  textarea {
+    border-radius: 5px; /* Adjust the radius as needed */
+    border: 1px solid #ccc; /* Adjust border style and color */
+    padding: 10px; /* Adjust padding as needed */
+  }
+
+  .modal input{
+    width:80%;
+    margin-top:10px;
+  }

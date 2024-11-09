@@ -1,0 +1,32 @@
+.navbar{
+    font-size: larger;
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 5px;
+    font-weight: bolder;
+}
+
+.navProductPage {
+    font-size: larger;
+  background: -webkit-linear-gradient(#1663f3, #fd0202);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+    text-decoration: none;
+    font-weight: bolder;
+    
+}
+
+.navButtons {
+    width:auto;
+    display: flex;
+    justify-content: space-between;
+}
+.createButton{
+    margin-right: 10px;
+    text-decoration: none;
+    color:black;
+}
+.toggleButton{
+    margin-right: 10px;
+}

@@ -1,0 +1,35 @@
+.container {
+    display: flex; /* Initially, set display to flex for row layout */
+    flex-wrap: wrap; /* Allow elements to wrap to the next line on smaller screens */
+    justify-content: center;
+    gap: 5px 5px;
+    padding-top: 20px;
+    width:100%;
+    height: auto;
+  }
+  
+ .homeTitle{
+    width:100%;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 40px;
+    background: -webkit-linear-gradient(#05f5e9, #02499b);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+    text-decoration: none;
+    font-weight: bolder;
+ } 
+
+ .homeIcons{
+    background-color: -webkit-linear-gradient(#05f5e9, #02499b);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+    text-decoration: none;
+    font-weight: bolder;
+ } 
+  /* Media query for screens smaller than 450px */
+  @media (max-width: 450px) {
+    .container {
+      flex-direction: column; /* Change the flex direction to column */
+    }
+  }
